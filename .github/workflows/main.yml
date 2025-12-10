@@ -11,6 +11,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install pytest
+        run: python -m pip install pytest 
+        
       - name: Test the code
         run: pytest test_kalkylator.py
           
