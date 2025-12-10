@@ -11,13 +11,13 @@ För att köra med täckningsrapport:
 """
 
 import pytest
-from kalkylator import kalkylator
+from kalkylator import Kalkylator
 
 
 @pytest.fixture
 def kalk():
     """Fixture som skapar en ny miniräknare för varje test."""
-    return kalkylator()
+    return Kalkylator()
 
 
 class TestSumma:
