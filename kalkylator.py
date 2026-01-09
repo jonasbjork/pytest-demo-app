@@ -19,7 +19,6 @@ class Kalkylator:
         Returns:
             Summan av a och b
         """
-        a = a + 1
         return a + b
     
     def differens(self, a: float, b: float) -> float:
